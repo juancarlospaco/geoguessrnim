@@ -10,6 +10,9 @@
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/screenshot2.jpg)
 
 
+![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/firefo.jpg)
+
+
 # Chromium
 
 - Compile `nim js -d:danger index.nim`.
