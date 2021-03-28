@@ -1,4 +1,4 @@
-# GeoGuessrNim
+# GeoGuessrNim Browser Plugin
 
 - Hide Ads with Free accounts.
 - Filters for the StreetView map.
