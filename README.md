@@ -27,6 +27,11 @@ Direct download of plugin ready for use:
 - [Mapillary](https://www.mapillary.com) maps are Free https://www.geoguessr.com/free
 
 
+# Learn to Win
+
+- https://geotips.net
+
+
 # Notes
 
 The idea is that sometimes the photos of the streets are too dark,
