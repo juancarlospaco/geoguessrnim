@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "description":      "GeoGuessr 'helper' plugin written in Nim",
   "author":           "Juan_Carlos",
-  "homepage_url":     "https://github.com/juancarlospaco",
+  "homepage_url":     "https://github.com/juancarlospaco/geoguessrnim",
   "offline_enabled":  false,
   "content_scripts":  [{
     "matches":        ["https://www.geoguessr.com/game/*", "https://www.geoguessr.com/challenge/*"],
