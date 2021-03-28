@@ -14,7 +14,11 @@ let
   headr = document.querySelectorAll("header.header")[0]
 
 proc changeFilters(_: Event) =
-  let canva = document.querySelectorAll("canvas.widget-scene-canvas")[0]
+  let canva =
+    if document.querySelectorAll("canvas.widget-scene-canvas").len == 0:
+      document.querySelector("div#mapillary-container")           # Mapillary mode.
+    else:
+      document.querySelectorAll("canvas.widget-scene-canvas")[0]  # StreetView mode.
   canva.style.filter = document.querySelector("#filterSelect").value
 
 proc main() =
