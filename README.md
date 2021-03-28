@@ -18,6 +18,9 @@
 - Open the folder of this repo.
 - Restart browser and go to https://www.geoguessr.com and play.
 
+Direct download of plugin ready for use:
+- https://github.com/juancarlospaco/geoguessrnim/releases/tag/0.1
+
 
 # Notes
 
