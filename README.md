@@ -13,8 +13,6 @@
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/firefo.jpg)
 
 
-https://www.youtube.com/watch?v=wIn8mD_Q6XU
-
 # Chromium
 
 - Compile `nim js -d:danger index.nim`.
