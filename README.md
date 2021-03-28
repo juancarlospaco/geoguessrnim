@@ -4,4 +4,4 @@
 - Filters for the StreetView map.
 - 100% Nim.
 
-![](screenshot.png)
+![](screenshot.jpg)
