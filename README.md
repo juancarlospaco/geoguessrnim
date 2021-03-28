@@ -1,7 +1,7 @@
 # GeoGuessrNim Browser Plugin
 
 - Hide Ads with Free accounts.
-- Filters for the StreetView and Mapillary maps.
+- Filters for the StreetView and [Mapillary](https://www.mapillary.com) maps.
 - 100% [Nim](http://nim-lang.org). Pull Requests welcome if you have more ideas.
 
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/screenshot.jpg)
@@ -24,7 +24,7 @@ Direct download of plugin ready for use:
 
 # Play for Free
 
-- Mapillary maps are Free https://www.geoguessr.com/free
+- [Mapillary](https://www.mapillary.com) maps are Free https://www.geoguessr.com/free
 
 
 # Notes
