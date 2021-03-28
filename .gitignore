@@ -2,3 +2,4 @@ nimcache/
 nimblecache/
 htmldocs/
 index_private.nim
+index.js
