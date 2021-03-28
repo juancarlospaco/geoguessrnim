@@ -6,12 +6,11 @@
   "description":      "GeoGuessr 'helper' plugin written in Nim",
   "author":           "Juan_Carlos",
   "homepage_url":     "https://github.com/juancarlospaco/geoguessrnim",
-  "offline_enabled":  false,
   "content_scripts":  [{
     "matches":        ["https://www.geoguessr.com/game/*", "https://www.geoguessr.com/challenge/*"],
     "js":             ["index.js"]
   }],
-  "permissions":      ["tabs", "experimental", "geolocation"],
+  "permissions":      ["tabs", "geolocation"],
   "icons": {
     "16":             "icon16.png",
     "32":             "icon32.png",
