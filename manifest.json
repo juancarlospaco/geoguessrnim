@@ -8,7 +8,7 @@
   "homepage_url":     "https://github.com/juancarlospaco",
   "offline_enabled":  false,
   "content_scripts":  [{
-    "matches":        ["https://www.geoguessr.com/game/*"],
+    "matches":        ["https://www.geoguessr.com/game/*", "https://www.geoguessr.com/challenge/*"],
     "js":             ["index.js"]
   }],
   "permissions":      ["tabs", "experimental", "geolocation"],
