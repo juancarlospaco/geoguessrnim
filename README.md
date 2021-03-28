@@ -13,6 +13,8 @@
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/firefo.jpg)
 
 
+https://www.youtube.com/watch?v=wIn8mD_Q6XU
+
 # Chromium
 
 - Compile `nim js -d:danger index.nim`.
@@ -33,6 +35,7 @@
 # Play for Free
 
 - [Mapillary](https://www.mapillary.com) maps are Free https://www.geoguessr.com/free
+- Go to https://www.reddit.com/r/geoguessr/?f=flair_name%3A%22Competitions%22 and click on the Challenge links posted.
 
 
 # Learn to Win
