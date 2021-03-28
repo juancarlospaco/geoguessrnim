@@ -24,3 +24,5 @@ reload the page and the options will show up again.
 The idea is that sometimes the photos of the streets are too dark,
 then it is harder to guess your location in game,
 the filters can make it easy to see without reloading the page.
+
+Also is a minimal example of a browser plugin written in Nim.
