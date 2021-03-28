@@ -1,6 +1,6 @@
 # GeoGuessrNim
 
-- Hide Ads without Pro account.
+- Hide Ads with Free accounts.
 - Filters for the StreetView map.
 - 100% Nim. Pull Requests welcome if you have more ideas.
 
