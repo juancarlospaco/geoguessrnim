@@ -22,6 +22,11 @@ Direct download of plugin ready for use:
 - https://github.com/juancarlospaco/geoguessrnim/releases/tag/0.1
 
 
+# Play for Free
+
+- Mapillary maps are Free https://www.geoguessr.com/free
+
+
 # Notes
 
 The idea is that sometimes the photos of the streets are too dark,
