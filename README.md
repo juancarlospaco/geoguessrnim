@@ -7,6 +7,9 @@
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/screenshot.jpg)
 
 
+![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/screenshot2.jpg)
+
+
 # Use
 
 - Compile `nim js -d:danger index.nim`.
