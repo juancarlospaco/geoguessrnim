@@ -10,7 +10,7 @@
 ![](https://raw.githubusercontent.com/juancarlospaco/geoguessrnim/nim/screenshot2.jpg)
 
 
-# Use
+# Chromium
 
 - Compile `nim js -d:danger index.nim`.
 - Open `chrome://extensions` in Chromium.
@@ -18,8 +18,13 @@
 - Open the folder of this repo.
 - Restart browser and go to https://www.geoguessr.com and play.
 
-Direct download of plugin ready for use:
-- https://github.com/juancarlospaco/geoguessrnim/releases/tag/0.1
+# Firefox
+
+- Compile `nim js -d:danger index.nim`.
+- Open `about:debugging#/runtime/this-firefox` in Firefox.
+- Click on `Load Temporary Addon` button.
+- Open the folder of this repo.
+- Restart browser and go to https://www.geoguessr.com and play.
 
 
 # Play for Free
