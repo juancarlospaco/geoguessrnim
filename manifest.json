@@ -7,7 +7,7 @@
   "author":           "Juan_Carlos",
   "homepage_url":     "https://github.com/juancarlospaco/geoguessrnim",
   "content_scripts":  [{
-    "matches":        ["https://www.geoguessr.com/game/*", "https://www.geoguessr.com/challenge/*"],
+    "matches":        ["https://www.geoguessr.com/game/*", "https://www.geoguessr.com/challenge/*", "https://www.geoguessr.com/battle-royale/*"],
     "js":             ["index.js"]
   }],
   "permissions":      ["tabs", "geolocation"],
