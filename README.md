@@ -39,6 +39,7 @@
 # Learn to Win
 
 - https://geotips.net
+- https://chatguessr.com
 
 
 # Notes
