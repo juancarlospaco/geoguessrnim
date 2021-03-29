@@ -1,12 +1,9 @@
 import std/dom
 
-const
-  filters_css = [
-    "none", "blur(1px)", "grayscale(1)", "invert(1)", "sepia(1)",
-    "brightness(2)", "brightness(4)",
-    "contrast(2)", "contrast(4)",
-    "hue-rotate(90deg)", "hue-rotate(180deg)",
-    "saturate(2)", "saturate(4)"]
+const filters_css = [
+  "none", "blur(1px)", "grayscale(1)", "invert(1)", "sepia(1)",
+  "brightness(2)", "brightness(4)", "contrast(2)", "contrast(4)",
+  "hue-rotate(90deg)", "hue-rotate(180deg)", "saturate(2)", "saturate(4)"]
 
 let
   filterSelect = document.createElement("select")
@@ -29,8 +26,10 @@ proc main() =
     filterSelect.appendChild(option)
   filterSelect.onclick = changeFilters
   filterSelect.id = "filterSelect"
-  ads.style.display = "none"
   headr.appendChild(filterSelect)
+  try:
+    ads.style.display = "none"
+  except: discard
 
 when isMainModule:
   main()
