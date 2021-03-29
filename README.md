@@ -51,3 +51,5 @@ Also is a minimal example of a browser plugin written in [Nim](http://nim-lang.o
 
 Sometimes the page re-renders itself hiding the options,
 reload the page and the options will show up again.
+
+Feel free to follow https://www.geoguessr.com/user/5f2eae1e73712400018e267a
