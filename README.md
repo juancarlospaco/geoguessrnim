@@ -53,3 +53,8 @@ Sometimes the page re-renders itself hiding the options,
 reload the page and the options will show up again.
 
 Feel free to follow https://www.geoguessr.com/user/5f2eae1e73712400018e267a
+
+
+# GeoGuessr song
+
+[![](https://img.youtube.com/vi/u7JVvbKNBWc/0.jpg)](https://www.youtube.com/watch?v=u7JVvbKNBWc)
