@@ -1,11 +1,12 @@
-import std/dom
+import std/[dom, json, jsfetch, asyncjs, jsconsole]
 
 const filters_css = [
   "none", "blur(1px)", "grayscale(1)", "invert(1)", "sepia(1)",
   "brightness(2)", "brightness(4)", "contrast(2)", "contrast(4)",
-  "hue-rotate(90deg)", "hue-rotate(180deg)", "saturate(2)", "saturate(4)"]
+  "hue-rotate(45deg)", "hue-rotate(90deg)", "hue-rotate(180deg)",
+  "saturate(2)", "saturate(4)"]
 
-proc hideAds() =
+template hideAds() =
   try: document.querySelectorAll("footer.game-layout__in-game-ad")[0].style.display = "none"
   except: discard
 
@@ -17,7 +18,7 @@ proc changeFilters(_: Event) =
       document.querySelectorAll("canvas.widget-scene-canvas")[0]  # StreetView mode.
   canva.style.filter = document.querySelector("#filterSelect").value
 
-proc addFilters() =
+template addFilters() =
   let filterSelect = document.createElement("select")
   filterSelect.id = "filterSelect"
   filterSelect.onclick = changeFilters
@@ -28,9 +29,9 @@ proc addFilters() =
     filterSelect.appendChild(option)
   document.querySelectorAll("header.header")[0].appendChild(filterSelect)
 
-proc main() =
+proc main(_: Event) =
   addFilters()
   hideAds()
 
 when isMainModule:
-  main()
+  window.addEventListener("load", main)
