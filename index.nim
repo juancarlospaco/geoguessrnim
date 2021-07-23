@@ -1,4 +1,4 @@
-import std/[dom, json, jsfetch, asyncjs, jsconsole]
+import std/[dom, json]
 
 const filters_css = [
   "none", "blur(1px)", "grayscale(1)", "invert(1)", "sepia(1)",
@@ -7,7 +7,7 @@ const filters_css = [
   "saturate(2)", "saturate(4)"]
 
 template hideAds() =
-  try: document.querySelectorAll("footer.game-layout__in-game-ad")[0].style.display = "none"
+  try:    document.querySelectorAll("footer.game-layout__in-game-ad")[0].style.display = "none"
   except: discard
 
 proc changeFilters(_: Event) =
