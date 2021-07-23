@@ -1,4 +1,4 @@
-import std/[dom, json]
+import std/dom
 
 const filters_css = [
   "none", "blur(1px)", "grayscale(1)", "invert(1)", "sepia(1)",
